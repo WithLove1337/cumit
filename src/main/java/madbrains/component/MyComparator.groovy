@@ -1,0 +1,1 @@
+package madbrains.component; import madbrains.catalogues.Element; class MyComparator implements Comparator<Element>{ int compare(Element a, Element b) {  return a.getValue().compareTo(b.getValue());  } }
